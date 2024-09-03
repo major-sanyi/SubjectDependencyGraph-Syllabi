@@ -1,5 +1,4 @@
-# Workflow to merge JSON arrays and deploy to GitHub Pages
-name: Merge JSON Arrays and Deploy to Pages
+name: Combine JSON and Deploy to Pages
 
 on:
   # Runs on pushes targeting the development branch
@@ -22,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job to merge JSON arrays and deploy
+  # Single deploy job to combine JSON and deploy
   deploy:
     environment:
       name: github-pages
@@ -32,12 +31,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Find and merge JSON arrays
+      - name: Find and combine JSON files
         run: |
           # Create docs directory if it doesn't exist
           mkdir -p docs
-          # Find all JSON files in subdirectories, merge arrays into one array
-          find . -type f -name "*.json" ! -path "./docs/*" -exec cat {} + | jq -s 'add' > docs/tantervek.json
+          # Find all JSON files and combine them into an array
+          find . -type f -name "*.json" ! -path "./docs/*" -exec jq -s add {} + > docs/tantervek.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -45,7 +44,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload the docs directory including the merged JSON file
+          # Upload the docs directory including the tantervek JSON file
           path: './docs/'
 
       - name: Deploy to GitHub Pages
