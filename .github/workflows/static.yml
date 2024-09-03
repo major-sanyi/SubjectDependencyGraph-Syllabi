@@ -1,3 +1,4 @@
+# Workflow to combine JSON files and deploy to GitHub Pages
 name: Combine JSON and Deploy to Pages
 
 on:
@@ -35,11 +36,8 @@ jobs:
         run: |
           # Create docs directory if it doesn't exist
           mkdir -p docs
-          # Initialize an empty array
-          echo "[]" > docs/combined.json
-          # Find all JSON files and merge them into a single array
-          find . -type f -name "*.json" ! -path "./docs/*" -exec jq -s '.[0] * .[1:]' docs/combined.json {} + > docs/merged_temp.json
-          mv docs/merged_temp.json docs/combined.json
+          # Find all JSON files in subdirectories, combine them into a single array and save to combined.json
+          find . -type f -name "*.json" ! -path "./docs/*" -exec jq -s 'add' docs/combined.json {} +
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
