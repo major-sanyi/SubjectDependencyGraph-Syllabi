@@ -33,8 +33,21 @@ jobs:
 
       - name: Find and merge JSON files
         run: |
+          mkdir -p docs
+          # Start the JSON array
           echo "[" > docs/tantervek.json
-          find . -name "*.json" -exec jq -s 'add' {} + >> docs/tantervek.json
+          # Add each JSON file's content to the array
+          first=true
+          find . -name "*.json" | while read filename; do
+            if [ "$first" = true ]; then
+              cat "$filename" >> docs/tantervek.json
+              first=false
+            else
+              echo "," >> docs/tantervek.json
+              cat "$filename" >> docs/tantervek.json
+            fi
+          done
+          # Close the JSON array
           echo "]" >> docs/tantervek.json
 
       - name: Setup Pages
