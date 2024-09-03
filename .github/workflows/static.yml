@@ -1,5 +1,5 @@
-# Workflow to merge JSON files and deploy to GitHub Pages
-name: Merge JSON files and Deploy to GitHub Pages
+# Workflow to combine JSON files and deploy to GitHub Pages
+name: Combine JSON and Deploy to Pages
 
 on:
   # Runs on pushes targeting the development branch
@@ -15,13 +15,14 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job
+  # Single deploy job to combine JSON and deploy
   deploy:
     environment:
       name: github-pages
@@ -31,22 +32,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Find and merge JSON files
+      - name: Find and combine JSON files
         run: |
-          # Start the JSON array
+          # Create docs directory if it doesn't exist
+          mkdir -p docs
+          # Find all JSON files in subdirectories, combine into one JSON file
           echo "[" > docs/tantervek.json
-          # Add each JSON file's content to the array
-          first=true
-          find . -name "*.json" | while read filename; do
-            if [ "$first" = true ]; then
-              cat "$filename" >> docs/tantervek.json
-              first=false
-            else
-              echo "," >> docs/tantervek.json
-              cat "$filename" >> docs/tantervek.json
-            fi
-          done
-          # Close the JSON array
+          find . -type f -name "*.json" ! -path "./docs/*" -exec cat {} + | jq -s . >> docs/tantervek.json
           echo "]" >> docs/tantervek.json
 
       - name: Setup Pages
@@ -55,7 +47,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload the docs directory
+          # Upload the docs directory including the tantervek JSON file
           path: './docs/'
 
       - name: Deploy to GitHub Pages
