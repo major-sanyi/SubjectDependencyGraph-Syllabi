@@ -28,7 +28,7 @@ def main():
     json_objects = collect_json_objects(base_directory)
 
     # A kimeneti fájl elérési útja
-    output_file = os.path.join(base_directory, 'docs', 'tantervek.json')
+    output_file = os.path.join(base_directory, 'docs', 'syllabi.json')
 
     # Az összes JSON objektum mentése egyetlen fájlba
     with open(output_file, 'w', encoding='utf-8') as f:
