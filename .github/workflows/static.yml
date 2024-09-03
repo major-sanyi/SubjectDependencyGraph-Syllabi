@@ -33,7 +33,6 @@ jobs:
 
       - name: Find and merge JSON files
         run: |
-          mkdir -p docs
           # Start the JSON array
           echo "[" > docs/tantervek.json
           # Add each JSON file's content to the array
