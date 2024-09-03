@@ -24,19 +24,37 @@ def collect_json_objects(directory):
     return json_objects
 
 def main():
-    base_directory = '.'  # A jelenlegi munkakönyvtár
-    json_objects = collect_json_objects(base_directory)
+    base_directory = 'Syllabi'  # A 'Syllabi' mappa
+    
+    # Gyűjtjük a JSON objektumokat a 'Syllabi' mappából
+    syllabi_objects = collect_json_objects(base_directory)
 
-    # A kimeneti fájl elérési útja
-    output_file = os.path.join(base_directory, 'docs', 'syllabi.json')
+    # Gyűjtjük a JSON objektumokat az 'Equivalence' mappából, ha létezik
+    equivalence_directory = os.path.join('Equivalence')
+    equivalence_objects = collect_json_objects(equivalence_directory)
+
+    # A 'docs' mappa elérési útja
+    docs_directory = os.path.join('docs')
+    os.makedirs(docs_directory, exist_ok=True)  # Biztosítjuk, hogy a 'docs' mappa létezik
+
+    # Kimeneti fájlok elérési útjai
+    syllabi_output_file = os.path.join(docs_directory, 'syllabi.json')
+    equivalence_output_file = os.path.join(docs_directory, 'equivalence.json')
 
     # Az összes JSON objektum mentése egyetlen fájlba
-    with open(output_file, 'w', encoding='utf-8') as f:
-        try:
-            json.dump(json_objects, f, ensure_ascii=False, indent=4)
-            print(f"Összefűzött JSON sikeresen mentve: {output_file}")
-        except IOError as e:
-            print(f"IO Error while writing the file {output_file}: {e}")
+    try:
+        with open(syllabi_output_file, 'w', encoding='utf-8') as f:
+            json.dump(syllabi_objects, f, ensure_ascii=False, indent=4)
+        print(f"Összefűzött JSON sikeresen mentve: {syllabi_output_file}")
+    except IOError as e:
+        print(f"IO Error while writing the file {syllabi_output_file}: {e}")
+
+    try:
+        with open(equivalence_output_file, 'w', encoding='utf-8') as f:
+            json.dump(equivalence_objects, f, ensure_ascii=False, indent=4)
+        print(f"Összefűzött JSON sikeresen mentve: {equivalence_output_file}")
+    except IOError as e:
+        print(f"IO Error while writing the file {equivalence_output_file}: {e}")
 
 if __name__ == '__main__':
     main()
