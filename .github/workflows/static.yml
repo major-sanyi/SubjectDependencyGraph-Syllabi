@@ -35,8 +35,11 @@ jobs:
         run: |
           # Create docs directory if it doesn't exist
           mkdir -p docs
-          # Find all JSON files and combine them into an array
-          find . -type f -name "*.json" ! -path "./docs/*" -exec jq -s add {} + > docs/tantervek.json
+          # Initialize an empty array
+          echo "[]" > docs/combined.json
+          # Find all JSON files and merge them into a single array
+          find . -type f -name "*.json" ! -path "./docs/*" -exec jq -s '.[0] * .[1:]' docs/combined.json {} + > docs/merged_temp.json
+          mv docs/merged_temp.json docs/combined.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -44,7 +47,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload the docs directory including the tantervek JSON file
+          # Upload the docs directory including the combined JSON file
           path: './docs/'
 
       - name: Deploy to GitHub Pages
