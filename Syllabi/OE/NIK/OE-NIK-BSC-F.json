@@ -1,6 +1,6 @@
 [
   {
-    "id": "NBNEMI",
+    "id": "NBNFMI",
     "name": "Mérnökinformatikus",
     "length": 7,
     "requiredMustChoseCredit": 18,
@@ -10,8 +10,6 @@
       {
         "id": "NBXIT1HBNF",
         "name": "IOT, beágyazott rendszerek és robotika specializáció",
-        "length": 4,
-        "parent": "NBXIT",
         "subjects": [
           {
             "id": "NBXIT1HBNF",
@@ -64,8 +62,6 @@
       {
         "id": "NBNEMI-AI-BD",
         "name": "Big Data és üzleti intelligencia specializáció",
-        "length": 4,
-        "parent": "NBNEMI",
         "subjects": [
           {
             "id": "NKXKD1HBNF",
@@ -122,8 +118,7 @@
       {
         "id": "F",
         "name": "Felhő szolgáltatási technológiák és IT biztonság specializáció",
-        "length": 4,
-        "parent": "F",
+
         "subjects": [
           {
             "id": "NKXHT1HBNF",
@@ -178,8 +173,6 @@
       {
         "id": "S",
         "name": "Szoftvertervezés és -fejlesztés specializáció",
-        "length": 4,
-        "parent": "S",
         "subjects": [
           {
             "id": "NSXPP1HBNF",
@@ -244,8 +237,6 @@
       {
         "id": "Mesterséges-Intelligencia",
         "name": "Mesterséges Intelligencia specializáció",
-        "length": 4,
-        "parent": "Mesterséges-Intelligencia",
         "subjects": [
           {
             "id": "NKXBA1HBNF",
@@ -298,8 +289,6 @@
       {
         "id": "Intelligens-uzleti-rendszerek",
         "name": "Intelligens üzleti és vállalati rendszerek specializáció",
-        "length": 4,
-        "parent": "Intelligens-uzleti-rendszerek",
         "subjects": [
           {
             "id": "NKXCR1HBNF",

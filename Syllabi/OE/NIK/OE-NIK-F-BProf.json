@@ -10,8 +10,6 @@
       {
         "id": "NBNEUM-NN-SZTF",
         "name": "Szoftvertervezés és -fejlesztés specializáció",
-        "length": 4,
-        "parent": "NBNEUM",
         "subjects": [
           {
             "id": "NSXBF1PBNF",
@@ -78,8 +76,6 @@
       {
         "id": "NBNEUM-NN-KIB",
         "name": "Kiberbiztonság specializáció",
-        "length": 4,
-        "parent": "NBNEUM",
         "subjects": [
           {
             "id": "NBXAL1PBNF",
