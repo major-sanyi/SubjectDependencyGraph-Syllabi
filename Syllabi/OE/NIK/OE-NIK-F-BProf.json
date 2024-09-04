@@ -1,0 +1,411 @@
+[
+  {
+    "id": "NBNEUM",
+    "name": "Üzemmérnök-informatikus",
+    "length": 6,
+    "requiredMustChoseCredit": 0,
+    "requiredChosableCredit": 10,
+    "startingSpecSemester": 3,
+    "specialisations": [
+      {
+        "id": "NBNEUM-NN-SZTF",
+        "name": "Szoftvertervezés és -fejlesztés specializáció",
+        "length": 4,
+        "parent": "NBNEUM",
+        "subjects": [
+          {
+            "id": "NSXBF1PBNF",
+            "name": "Backend fejlesztés",
+            "kredit": 7,
+            "recommendedSemester": 5,
+            "preRequisiteSubjects": [
+              "NSXSFAPBNF"
+            ],
+            "language": "Hungarian"
+          },
+          {
+            "id": "NSXFF1PBNF",
+            "name": "Frontend fejlesztés",
+            "kredit": 6,
+            "recommendedSemester": 6,
+            "preRequisiteSubjects": [
+              "NSXBF1PBNF"
+            ],
+            "language": "Hungarian"
+          },
+          {
+            "id": "NSXTM1PBNF",
+            "name": "Tervezési minták",
+            "kredit": 4,
+            "recommendedSemester": 5,
+            "preRequisiteSubjects": [
+              "NSXBF1PBNF"
+            ],
+            "language": "Hungarian"
+          },
+          {
+            "id": "NSXDS1PBNF",
+            "name": "Devops a szoftverfejlesztésben",
+            "kredit": 4,
+            "recommendedSemester": 6,
+            "preRequisiteSubjects": [
+              "NSXTM1PBNF"
+            ],
+            "language": "Hungarian"
+          },
+          {
+            "id": "NSXHS1PBNF",
+            "name": "Haladó szoftverfejlesztés és tesztelés",
+            "kredit": 4,
+            "recommendedSemester": 6,
+            "preRequisiteSubjects": [
+              "NSXFF1PBNF"
+            ],
+            "language": "Hungarian"
+          },
+          {
+            "id": "NSXAP1PBNF",
+            "name": "Adatszerkezetek és párhuzamos programozás alapjai",
+            "kredit": 5,
+            "recommendedSemester": 6,
+            "preRequisiteSubjects": [
+              "NSXTM1PBNF"
+            ],
+            "language": "Hungarian"
+          }
+        ]
+      },
+      {
+        "id": "NBNEUM-NN-KIB",
+        "name": "Kiberbiztonság specializáció",
+        "length": 4,
+        "parent": "NBNEUM",
+        "subjects": [
+          {
+            "id": "NBXAL1PBNF",
+            "name": "Audit, logelemzés, hacker eszközök",
+            "kredit": 7,
+            "recommendedSemester": 6,
+            "preRequisiteSubjects": [
+              "NKXOR1PBNF",
+              "NSXSFAPBNF"
+            ],
+            "language": "Hungarian"
+          },
+          {
+            "id": "NKXHT1PBNF",
+            "name": "Hálózati technológiák",
+            "kredit": 5,
+            "recommendedSemester": 5,
+            "preRequisiteSubjects": [
+              "NKXSH1PBNF"
+            ],
+            "language": "Hungarian"
+          },
+          {
+            "id": "NBXIR1PBNF",
+            "name": "Informatikai rendszerek és szolgáltatások biztonsága",
+            "kredit": 5,
+            "recommendedSemester": 5,
+            "preRequisiteSubjects": [
+              "NBXIB1PBNF"
+            ],
+            "language": "Hungarian"
+          },
+          {
+            "id": "NKXSH1PBNF",
+            "name": "Számítógép hálózatok és felhők biztonsága",
+            "kredit": 5,
+            "recommendedSemester": 5,
+            "preRequisiteSubjects": [
+              "NBXIR1PBNF"
+            ],
+            "language": "Hungarian"
+          },
+          {
+            "id": "NBXIB1PBNF",
+            "name": "Intézményi informatikai biztonság",
+            "kredit": 8,
+            "recommendedSemester": 6,
+            "preRequisiteSubjects": [
+              "NBXIR1PBNF"
+            ],
+            "language": "Hungarian"
+          }
+        ]
+      }
+    ],
+    "subjects": [
+      {
+        "id": "NMXMA1PBNF",
+        "name": "Matematikai alapismeretek*",
+        "kredit": 6,
+        "recommendedSemester": 1,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NMXIMAPBNF",
+        "name": "Az informatika matematikai alapjai",
+        "kredit": 6,
+        "recommendedSemester": 2,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NMXAN1PBNF",
+        "name": "Analízis",
+        "kredit": 4,
+        "recommendedSemester": 3,
+        "preRequisiteSubjects": [
+          "NMXMA1PBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NMXDM1PBNF",
+        "name": "Diszkrét matematika és lineáris algebra",
+        "kredit": 5,
+        "recommendedSemester": 4,
+        "preRequisiteSubjects": [
+          "NMXIMAPBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "OTTESI1BNF",
+        "name": "Testnevelés 1",
+        "kredit": 1,
+        "recommendedSemester": 1,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "OTTESI2BNF",
+        "name": "Testnevelés 2",
+        "kredit": 1,
+        "recommendedSemester": 2,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "OTTESI3BNF",
+        "name": "Testnevelés 3",
+        "kredit": 1,
+        "recommendedSemester": 3,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "OTTESI4BNF",
+        "name": "Testnevelés 4",
+        "kredit": 1,
+        "recommendedSemester": 4,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NBXTM1PBNF",
+        "name": "Tanulásmódszertan",
+        "kredit": 6,
+        "recommendedSemester": 1,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NKXVP1PBNF",
+        "name": "Vállalkozásszervezés és projektmenedzsment",
+        "kredit": 4,
+        "recommendedSemester": 6,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NSXPP1PBNF",
+        "name": "Problémamegoldás programozással",
+        "kredit": 6,
+        "recommendedSemester": 1,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NKXEL1PBNF",
+        "name": "Elektronika és digitális rendszerek alapjai",
+        "kredit": 5,
+        "recommendedSemester": 2,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NBXTF1PBNF",
+        "name": "Tutorálás felkészítő és projektdokumentációs technikák",
+        "kredit": 4,
+        "recommendedSemester": 1,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NSXSFAPBNF",
+        "name": "Szoftverfejlesztés alapjai",
+        "kredit": 6,
+        "recommendedSemester": 3,
+        "preRequisiteSubjects": [
+          "NSXPP1PBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NKXAB1PBNF",
+        "name": "Adatbázisok*",
+        "kredit": 5,
+        "recommendedSemester": 4,
+        "preRequisiteSubjects": [
+          "NSXPP1PBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NKXOR1PBNF",
+        "name": "Operációs rendszerek *",
+        "kredit": 5,
+        "recommendedSemester": 3,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NSXHSFPBNF",
+        "name": "Tutorálás",
+        "kredit": 4,
+        "recommendedSemester": 3,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NKXSH1PBNF",
+        "name": "Haladó szoftverfejlesztés *",
+        "kredit": 4,
+        "recommendedSemester": 4,
+        "preRequisiteSubjects": [
+          "NSXSFAPBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NKXSH1PBNF",
+        "name": "Számítógép hálózatok",
+        "kredit": 4,
+        "recommendedSemester": 5,
+        "preRequisiteSubjects": [
+          "NKXOR1PBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NBXIB1PBNF",
+        "name": "Informatikai biztonság *",
+        "kredit": 5,
+        "recommendedSemester": 5,
+        "preRequisiteSubjects": [
+          "NKXOR1PBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NKXBE1PBNF",
+        "name": "Beágyazott és érzékelőalapú rendszerek",
+        "kredit": 5,
+        "recommendedSemester": 5,
+        "preRequisiteSubjects": [
+          "NKXEL1PBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NSXST1PBNF",
+        "name": "Szoftvertechnológia*",
+        "kredit": 4,
+        "recommendedSemester": 5,
+        "preRequisiteSubjects": [
+          "NSXSFAPBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NSXFSSPBNF",
+        "name": "Full-stack szoftverfejlesztés *",
+        "kredit": 5,
+        "recommendedSemester": 6,
+        "preRequisiteSubjects": [
+          "NKXSH1PBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NBXRE1PBNF",
+        "name": "Rendszerelmélet",
+        "kredit": 4,
+        "recommendedSemester": 5,
+        "preRequisiteSubjects": [
+          "NMXAN1PBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NKXSA1PBNF",
+        "name": "Számítógép architektúrák alapjai",
+        "kredit": 4,
+        "recommendedSemester": 5,
+        "preRequisiteSubjects": [
+          "NKXEL1PBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NDXON1PBNF",
+        "name": "Önálló labor I.*",
+        "kredit": 5,
+        "recommendedSemester": 6,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NDDSD1PBNF",
+        "name": "Szakdolgozat I.",
+        "kredit": 5,
+        "recommendedSemester": 6,
+        "preRequisiteSubjects": [],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NDXON2PBNF",
+        "name": "Önálló labor II.*",
+        "kredit": 10,
+        "recommendedSemester": 7,
+        "preRequisiteSubjects": [
+          "NDXON1PBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NDDSD2PBNF",
+        "name": "Szakdolgozat II.",
+        "kredit": 10,
+        "recommendedSemester": 7,
+        "preRequisiteSubjects": [
+          "NDDSD1PBNF"
+        ],
+        "language": "Hungarian"
+      },
+      {
+        "id": "NSXMP1PBNF",
+        "name": "Mobilprogramozás *",
+        "kredit": 4,
+        "recommendedSemester": 6,
+        "preRequisiteSubjects": [
+          "NSXFSSPBNF"
+        ],
+        "language": "Hungarian"
+      }
+    ]
+  }
+]
