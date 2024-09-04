@@ -10,11 +10,11 @@
         "NMXAN1PBNE"
       ],
       "NMXIMAPBNF": [
-        "NMXDM1PBN",
+        "NMXDM1PBNE",
         "NIXBI1PBNE"
       ],
       "NMXDM1PBNF": [
-        "NMXDM2PBN"
+        "NMXDM2PBNE"
       ],
       "NSXPP1PBNF": [
         "NIXSF1PBNE"
@@ -138,10 +138,10 @@
       "NIXSH1KBNE": [
         "NIXSH1FBEE"
       ],
-      "NMXAN1HBNE": [
+      "NMXAN1HPBNE": [
         "NMXAN1HBEE"
       ],
-      "NMXDM1PBNE": [
+      "NMXDM1PBNF": [
         "NMXDM1HBEE"
       ],
       "NMXDM2PBNE": [
@@ -262,7 +262,7 @@
         "NIXSH1KBNE"
       ],
       "NMXAN1HBEE": [
-        "NMXAN1HBNE"
+        "NMXMA1PBNE"
       ],
       "NMXDM1HBEE": [
         "NMXDM1PBNE"
