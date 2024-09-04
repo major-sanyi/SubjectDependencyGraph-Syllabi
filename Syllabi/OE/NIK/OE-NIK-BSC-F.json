@@ -15,7 +15,7 @@
             "id": "NBXIT1HBNF",
             "name": "Irányítástechnika",
             "kredit": 5,
-            "recommendedSemester": 1,
+            "recommendedSemester": 5,
             "preRequisiteSubjects": [],
             "language": "Hungarian"
           },
@@ -23,7 +23,7 @@
             "id": "NKXBE1HBNF",
             "name": "Beágyazott és érzékelőalapú rendszerek",
             "kredit": 5,
-            "recommendedSemester": 1,
+            "recommendedSemester": 5,
             "preRequisiteSubjects": [],
             "language": "Hungarian"
           },
@@ -31,7 +31,7 @@
             "id": "NBXRT1HBNF",
             "name": "Robottechnika alapjai",
             "kredit": 6,
-            "recommendedSemester": 5,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NBXIT1HBNF"
             ],
@@ -41,7 +41,7 @@
             "id": "NKXBP1HBNF",
             "name": "Beágyazott eszközök programozása, kommunikációs protokollok",
             "kredit": 5,
-            "recommendedSemester": 4,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NKXBE1HBNF"
             ],
@@ -51,7 +51,7 @@
             "id": "NKXSI1HBNF",
             "name": "Szenzorhálózatok, IoT rendszerek",
             "kredit": 4,
-            "recommendedSemester": 4,
+            "recommendedSemester": 7,
             "preRequisiteSubjects": [
               "NKXBP1HBNF"
             ],
@@ -67,7 +67,7 @@
             "id": "NKXKD1HBNF",
             "name": "Korszerű adatbázisok",
             "kredit": 5,
-            "recommendedSemester": 4,
+            "recommendedSemester": 5,
             "preRequisiteSubjects": [
               "NKXAB1HBNF"
             ],
@@ -77,7 +77,7 @@
             "id": "NKXAT1HBNF",
             "name": "Adattárházak és üzleti intelligencia",
             "kredit": 5,
-            "recommendedSemester": 5,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NKXKD1HBNF"
             ],
@@ -107,7 +107,7 @@
             "id": "NKXBA1HBNF",
             "name": "Bevezetés az adattudományba",
             "kredit": 5,
-            "recommendedSemester": 4,
+            "recommendedSemester": 5,
             "preRequisiteSubjects": [
               "NKXAB1HBNF"
             ],
@@ -124,7 +124,7 @@
             "id": "NKXHT1HBNF",
             "name": "Hálózati technológiák",
             "kredit": 5,
-            "recommendedSemester": 2,
+            "recommendedSemester": 5,
             "preRequisiteSubjects": [],
             "language": "Hungarian"
           },
@@ -132,7 +132,7 @@
             "id": "NKXFS1HBNF",
             "name": "Felhőszolgáltatások",
             "kredit": 5,
-            "recommendedSemester": 2,
+            "recommendedSemester": 5,
             "preRequisiteSubjects": [
               "NKXHT1HBNF"
             ],
@@ -142,7 +142,7 @@
             "id": "NKXSH1HBNF",
             "name": "Számítógép hálózatok és felhők biztonsága",
             "kredit": 5,
-            "recommendedSemester": 4,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NKXHT1HBNF"
             ],
@@ -152,7 +152,7 @@
             "id": "NBXIS1HBNF",
             "name": "Informatikai rendszerek és szolgáltatások biztonsága",
             "kredit": 5,
-            "recommendedSemester": 4,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NKXSH1HBNF"
             ],
@@ -162,7 +162,7 @@
             "id": "NKXVA1HBNF",
             "name": "Virtuális hálózatok és adatközpontok technológiái",
             "kredit": 5,
-            "recommendedSemester": 4,
+            "recommendedSemester": 7,
             "preRequisiteSubjects": [
               "NKXFS1HBNF"
             ],
@@ -178,7 +178,7 @@
             "id": "NSXPP1HBNF",
             "name": "Párhuzamos és elosztott rendszerek programozása",
             "kredit": 5,
-            "recommendedSemester": 2,
+            "recommendedSemester": 5,
             "preRequisiteSubjects": [],
             "language": "Hungarian"
           },
@@ -186,7 +186,7 @@
             "id": "NSXHA1HBNF",
             "name": "Haladó algoritmusok",
             "kredit": 4,
-            "recommendedSemester": 2,
+            "recommendedSemester": 5,
             "preRequisiteSubjects": [
               "NSXPP1HBNF"
             ],
@@ -196,7 +196,7 @@
             "id": "NSXAP1HBNF",
             "name": "Adatpárhuzamos programozás",
             "kredit": 4,
-            "recommendedSemester": 4,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NSXPP1HBNF"
             ],
@@ -206,7 +206,7 @@
             "id": "NSXNR1HBNF",
             "name": "Nagy rendszerek fejlesztésének technológiája",
             "kredit": 4,
-            "recommendedSemester": 4,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NSXST1HBNF"
             ],
@@ -216,7 +216,7 @@
             "id": "NSXST3HBNF",
             "name": "Modern szoftvertechnológia",
             "kredit": 4,
-            "recommendedSemester": 4,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NSXST1HBNF"
             ],
@@ -226,7 +226,7 @@
             "id": "NSXBF1HBNF",
             "name": "Backend és frontend fejlesztés",
             "kredit": 4,
-            "recommendedSemester": 4,
+            "recommendedSemester": 7,
             "preRequisiteSubjects": [
               "NSXFSSHBNF"
             ],
@@ -242,7 +242,7 @@
             "id": "NKXBA1HBNF",
             "name": "Bevezetés az adattudományba",
             "kredit": 5,
-            "recommendedSemester": 4,
+            "recommendedSemester": 5,
             "preRequisiteSubjects": [
               "NKXAB1HBNF"
             ],
@@ -260,7 +260,7 @@
             "id": "NBXFR1HBNF",
             "name": "Fejlett robotprogramozás ROS környezetben",
             "kredit": 5,
-            "recommendedSemester": 5,
+            "recommendedSemester": 7,
             "preRequisiteSubjects": [],
             "language": "Hungarian"
           },
@@ -268,7 +268,7 @@
             "id": "NSXMG1HBNF",
             "name": "Mély gépi tanulás",
             "kredit": 5,
-            "recommendedSemester": 5,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NSXMI1HBNF"
             ],
@@ -278,7 +278,7 @@
             "id": "NKXBF1HBNF",
             "name": "Big Data és felhő alapú szolgáltatások",
             "kredit": 5,
-            "recommendedSemester": 5,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NKXBA1HBNF"
             ],
@@ -314,7 +314,7 @@
             "id": "NKXAT1HBNF",
             "name": "Adattárházak és üzleti intelligencia",
             "kredit": 5,
-            "recommendedSemester": 5,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NKXCR1HBNF"
             ],
@@ -324,7 +324,7 @@
             "id": "NKXVA1HBNF",
             "name": "Vállalati alkalmazások integrációja",
             "kredit": 5,
-            "recommendedSemester": 5,
+            "recommendedSemester": 6,
             "preRequisiteSubjects": [
               "NKXEP1HBNF"
             ],
@@ -356,7 +356,7 @@
         "id": "NMXIMAHBNF",
         "name": "Az informatika matematikai alapjai",
         "kredit": 6,
-        "recommendedSemester": 2,
+        "recommendedSemester": 1,
         "preRequisiteSubjects": [],
         "language": "Hungarian"
       },
@@ -364,7 +364,7 @@
         "id": "NKXEAIHBNF",
         "name": "Elektronikai alapismeretek",
         "kredit": 5,
-        "recommendedSemester": 3,
+        "recommendedSemester": 2,
         "preRequisiteSubjects": [],
         "language": "Hungarian"
       },
@@ -372,7 +372,7 @@
         "id": "NMXAN1HBNF",
         "name": "Analízis I.",
         "kredit": 4,
-        "recommendedSemester": 4,
+        "recommendedSemester": 2,
         "preRequisiteSubjects": [
           "NMXMA1HBNF"
         ],
@@ -382,7 +382,7 @@
         "id": "NMXDM1HBNF",
         "name": "Diszkrét matematika és lineáris algebra",
         "kredit": 4,
-        "recommendedSemester": 4,
+        "recommendedSemester": 2,
         "preRequisiteSubjects": [
           "NMXIMAHBNF"
         ],
@@ -392,7 +392,7 @@
         "id": "NMXAN2HBNF",
         "name": "Analízis II.",
         "kredit": 4,
-        "recommendedSemester": 6,
+        "recommendedSemester": 3,
         "preRequisiteSubjects": [
           "NMXAN1HBNF"
         ],
@@ -402,7 +402,7 @@
         "id": "KTXFI1HBNF",
         "name": "Fizika",
         "kredit": 4,
-        "recommendedSemester": 7,
+        "recommendedSemester": 3,
         "preRequisiteSubjects": [
           "NMXAN1HBNF"
         ],
@@ -412,7 +412,7 @@
         "id": "NMXVMSHBNF",
         "name": "Valószínűségszámítás és matematikai statisztika",
         "kredit": 5,
-        "recommendedSemester": 6,
+        "recommendedSemester": 4,
         "preRequisiteSubjects": [
           "NMXAN2HBNF"
         ],
@@ -470,7 +470,7 @@
         "id": "NBXTF1HBNF",
         "name": "Tutorálás felkészítő és projektdokumentációs technikák",
         "kredit": 5,
-        "recommendedSemester": 4,
+        "recommendedSemester": 2,
         "preRequisiteSubjects": [],
         "language": "Hungarian"
       },
@@ -478,7 +478,7 @@
         "id": "NBXTUTHBNF",
         "name": "Tutorálás",
         "kredit": 4,
-        "recommendedSemester": 6,
+        "recommendedSemester": 3,
         "preRequisiteSubjects": [
           "NBXTF1HBNF"
         ],
@@ -488,7 +488,7 @@
         "id": "NSXPP1HBNF",
         "name": "Problémamegoldás programozással",
         "kredit": 6,
-        "recommendedSemester": 6,
+        "recommendedSemester": 1,
         "preRequisiteSubjects": [],
         "language": "Hungarian"
       },
@@ -496,7 +496,7 @@
         "id": "NSXSFAHBNF",
         "name": "Szoftverfejlesztés alapjai",
         "kredit": 6,
-        "recommendedSemester": 6,
+        "recommendedSemester": 2,
         "preRequisiteSubjects": [
           "NSXPP1HBNF"
         ],
@@ -506,7 +506,7 @@
         "id": "NKXAB1HBNF",
         "name": "Adatbázisok",
         "kredit": 5,
-        "recommendedSemester": 6,
+        "recommendedSemester": 2,
         "preRequisiteSubjects": [
           "NSXPP1HBNF"
         ],
@@ -516,7 +516,7 @@
         "id": "NKXEL1HBNF",
         "name": "Elektronika",
         "kredit": 5,
-        "recommendedSemester": 7,
+        "recommendedSemester": 2,
         "preRequisiteSubjects": [
           "NKXEAIHBNF"
         ],
@@ -526,7 +526,7 @@
         "id": "NSXAA1HBNF",
         "name": "Algoritmusok és adatszerkezetek",
         "kredit": 5,
-        "recommendedSemester": 7,
+        "recommendedSemester": 3,
         "preRequisiteSubjects": [
           "NSXSFAHBNF"
         ],
@@ -536,7 +536,7 @@
         "id": "NSXHSFHBNF",
         "name": "Haladó szoftverfejlesztés",
         "kredit": 4,
-        "recommendedSemester": 8,
+        "recommendedSemester": 3,
         "preRequisiteSubjects": [
           "NSXSFAHBNF"
         ],
@@ -546,7 +546,7 @@
         "id": "NKXDR1HBNF",
         "name": "Digitális rendszerek",
         "kredit": 4,
-        "recommendedSemester": 8,
+        "recommendedSemester": 3,
         "preRequisiteSubjects": [
           "NKXEL1HBNF"
         ],
@@ -556,7 +556,7 @@
         "id": "NKXSH1HBNF",
         "name": "Számítógép hálózatok",
         "kredit": 4,
-        "recommendedSemester": 8,
+        "recommendedSemester": 3,
         "preRequisiteSubjects": [
           "NKXDR1HBNF"
         ],
@@ -566,7 +566,7 @@
         "id": "NSXFSSHBNF",
         "name": "Full-stack szoftverfejlesztés",
         "kredit": 5,
-        "recommendedSemester": 9,
+        "recommendedSemester": 4,
         "preRequisiteSubjects": [
           "NSXHSFHBNF"
         ],
@@ -576,7 +576,7 @@
         "id": "NSXST1HBNF",
         "name": "Szoftvertechnológia",
         "kredit": 4,
-        "recommendedSemester": 9,
+        "recommendedSemester": 4,
         "preRequisiteSubjects": [
           "NSXSFAHBNF"
         ],
@@ -586,7 +586,7 @@
         "id": "NBXRE1HBNF",
         "name": "Rendszerelmélet",
         "kredit": 4,
-        "recommendedSemester": 10,
+        "recommendedSemester": 4,
         "preRequisiteSubjects": [
           "NMXAN2HBNF"
         ],
@@ -596,7 +596,7 @@
         "id": "NSXMI1HBNF",
         "name": "Mesterséges intelligencia",
         "kredit": 5,
-        "recommendedSemester": 10,
+        "recommendedSemester": 4,
         "preRequisiteSubjects": [
           "NSXAA1HBNF"
         ],
@@ -606,7 +606,7 @@
         "id": "NKXOR1HBNF",
         "name": "Operációs rendszerek",
         "kredit": 5,
-        "recommendedSemester": 10,
+        "recommendedSemester": 4,
         "preRequisiteSubjects": [
           "NKXSH1HBNF"
         ],
@@ -616,7 +616,7 @@
         "id": "NBXSS1HBNF",
         "name": "Szakmai szigorlat",
         "kredit": 0,
-        "recommendedSemester": 7,
+        "recommendedSemester": 4,
         "preRequisiteSubjects": [
           "NSXAA1HBNF",
           "NKXDR1HBNF"
@@ -627,7 +627,7 @@
         "id": "NKXSA1HBNF",
         "name": "Számítógép architektúrák alapjai *",
         "kredit": 4,
-        "recommendedSemester": 6,
+        "recommendedSemester": 5,
         "preRequisiteSubjects": [
           "NKXDR1HBNF"
         ],
@@ -637,7 +637,7 @@
         "id": "NBXIB1HBNF",
         "name": "Informatikai biztonság *",
         "kredit": 5,
-        "recommendedSemester": 7,
+        "recommendedSemester": 5,
         "preRequisiteSubjects": [
           "NKXOR1HBNF"
         ],
@@ -647,7 +647,7 @@
         "id": "NSXMP1HBNF",
         "name": "Mobilprogramozás *",
         "kredit": 4,
-        "recommendedSemester": 7,
+        "recommendedSemester": 5,
         "preRequisiteSubjects": [
           "NSXFSSHBNF"
         ],
@@ -657,7 +657,7 @@
         "id": "NKXKSAHBNF",
         "name": "Korszerű számítógép architektúrák",
         "kredit": 4,
-        "recommendedSemester": 7,
+        "recommendedSemester": 6,
         "preRequisiteSubjects": [
           "NKXSA1HBNF"
         ],
@@ -667,7 +667,7 @@
         "id": "NDPPM1HBNF",
         "name": "Projektmunka I.",
         "kredit": 4,
-        "recommendedSemester": 7,
+        "recommendedSemester": 5,
         "preRequisiteSubjects": [],
         "language": "Hungarian"
       },
@@ -675,7 +675,7 @@
         "id": "NDPPM2HBNF",
         "name": "Projektmunka II.",
         "kredit": 4,
-        "recommendedSemester": 8,
+        "recommendedSemester": 5,
         "preRequisiteSubjects": [
           "NDPPM1HBNF"
         ],
@@ -685,7 +685,7 @@
         "id": "NDDSD1HBNF",
         "name": "Szakdolgozat",
         "kredit": 15,
-        "recommendedSemester": 8,
+        "recommendedSemester": 7,
         "preRequisiteSubjects": [
           "NDPPM2HBNF"
         ],
