@@ -1,6 +1,6 @@
 [
   {
-    "id": "NBNEOM",
+    "id": "NBNFUM",
     "name": "Üzemmérnök-informatikus",
     "length": 6,
     "requiredMustChoseCredit": 0,
@@ -109,7 +109,7 @@
             "language": "Hungarian"
           },
           {
-            "id": "NKXSH1PBNF",
+            "id": "NKXSH1PBNFSPEC",
             "name": "Számítógép hálózatok és felhők biztonsága",
             "kredit": 5,
             "recommendedSemester": 5,
@@ -277,7 +277,7 @@
         "language": "Hungarian"
       },
       {
-        "id": "NKXSH1PBNF",
+        "id": "NKXSH1PBNFSZOFT",
         "name": "Haladó szoftverfejlesztés *",
         "kredit": 4,
         "recommendedSemester": 3,
